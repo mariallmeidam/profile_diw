@@ -52,7 +52,8 @@
   border-radius: 0.5rem;
 }
 
-.header__info h5 {
+.header__info h5,
+.header__info h4 {
   font-weight: 700;
   color: var(--primary);
 }
@@ -118,15 +119,19 @@
 
 .header__socialmedia__list--linkedin:hover {
   background-color: #0c6696;
+  cursor: pointer;
 }
 .header__socialmedia__list--instagram:hover {
   background-color: #96162d;
+  cursor: pointer;
 }
 .header__socialmedia__list--behance:hover {
   background-color: #1955c5;
+  cursor: pointer;
 }
 .header__socialmedia__list--email:hover {
   background-color: #aa2c1c;
+  cursor: pointer;
 }
 
 .header__description {
@@ -148,6 +153,7 @@
   height: 1.5rem;
   color: #fff;
   font-size: 0.75rem;
+  cursor: pointer;
 }
 
 .header__visits--number {
@@ -180,7 +186,7 @@
 .repo__item {
   padding: 1.5rem 1.75rem;
   border-radius: 0.5rem;
-  border: 1px solid #616161;
+  border: 1px solid #b6b6b6;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -219,6 +225,11 @@
     height: 20rem;
     width: 100%;
     object-fit: cover;
+    object-position: 0rem 20%;
+}
+
+.carousel-item:hover {
+    background-color: #000000ab;
 }
 
 /* Footer */
