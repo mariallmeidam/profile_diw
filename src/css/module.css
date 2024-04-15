@@ -7,29 +7,24 @@
   height: 64px;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .nav__list--name {
   font-weight: 900;
-  border-radius: 0.125rem;
   cursor: pointer;
-  padding: 0.5rem 2rem;
-  background-color: #dddddd;
-  border-radius: 0.25rem;
-}
-
-.nav__list--name:hover {
-  background-color: #616161;
-  color: #fff;
 }
 
 .nav__list__itens {
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .nav__list__itens--link {
-  padding-left: 2.5rem;
-  font-size: 1.5rem;
+  padding-left: 0.75rem;
   cursor: pointer;
 }
 
@@ -52,19 +47,22 @@
   background-image: url("../assets/me.jpg");
   background-size: cover;
   background-position: center;
-  width: 15rem;
-  height: 15rem;
+  width: 10em;
+  height: 10rem;
   border-radius: 0.5rem;
 }
 
-.header__info h4 {
+.header__info h5 {
   font-weight: 700;
-  padding-top: 0.5rem;
   color: var(--primary);
 }
 
+.header__info p {
+    font-size: 0.75rem;
+}
+
 .header__info--mobile {
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .header__socialmedia__list {
@@ -79,13 +77,13 @@
 .header__socialmedia__list__itens {
   padding: 0.25rem 1.25rem;
   border-radius: 0.25rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   margin-top: 0.5rem;
-  font-size: 1rem;
   background-color: #dddddd;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  font-size: 0.75rem;
 }
 
 .header__socialmedia__list svg {
@@ -132,8 +130,7 @@
 }
 
 .header__description {
-  padding: 2rem 0rem;
-  font-size: 1.25rem;
+  padding: 0.5rem 0rem;
 }
 
 .header__description__list {
@@ -144,13 +141,13 @@
 
 .header__visits {
   margin: 1rem 0rem;
-  font-size: 1rem;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   width: 6rem;
   height: 1.5rem;
   color: #fff;
+  font-size: 0.75rem;
 }
 
 .header__visits--number {
@@ -177,11 +174,11 @@
   margin: 0;
   padding: 0;
   display: grid;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .repo__item {
-  padding: 2rem 2.5rem;
+  padding: 1.5rem 1.75rem;
   border-radius: 0.5rem;
   border: 1px solid #616161;
   display: flex;
@@ -192,8 +189,7 @@
 .repo__item__title {
   font-weight: bold;
   color: var(--primary);
-  font-size: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .repo__item__lang {
@@ -216,4 +212,11 @@
 
 .repo__item__lang__icon--php {
   background-color: #e4405f;
+}
+
+/* Section Conteudo */
+.image__carrossel {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
 }

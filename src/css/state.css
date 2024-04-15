@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   .header__socialmedia--desktop {
     display: none;
   }
@@ -26,9 +26,14 @@
   .repo__item {
     margin-bottom: 1rem;
   }
+
+  .header__socialmedia__list__itens {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.5rem;
+  }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 751px) {
   .header__socialmedia--mobile {
     display: none;
   }
@@ -60,6 +65,6 @@
   }
 
   .repo {
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 32% 32% 32%;
   }
 }
