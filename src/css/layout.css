@@ -7,12 +7,13 @@
 /* Header */
 .header {
   margin: 0rem 6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 /* Section Repo */
 .section{
   margin: 0rem 6rem;
+  margin-bottom: 4rem;
 }
 
 .footer {
@@ -31,6 +32,7 @@
 @media only screen and (max-width: 600px) {
   .header, .nav, .section{
       margin: 0rem 2rem;
+      margin-bottom: 2rem;
   }
 
   .footer {
