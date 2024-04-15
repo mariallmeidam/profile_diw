@@ -220,3 +220,18 @@
     width: 100%;
     object-fit: cover;
 }
+
+/* Footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 10rem;
+    margin-top: 4rem;
+    background-color: #f1f1f1;
+}
+
+.footer__image {
+    width: 5rem;
+}
