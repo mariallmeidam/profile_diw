@@ -170,3 +170,50 @@
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
 }
+
+/* Section Repo */
+.repo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: space-around;
+}
+
+.repo__item {
+  padding: 2rem 2.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #616161;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.repo__item__title {
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.repo__item__lang {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.repo__item__lang__icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.repo__item__lang__icon--dart {
+  background-color: #1955c5;
+}
+
+.repo__item__lang__icon--php {
+  background-color: #e4405f;
+}

@@ -11,7 +11,7 @@
 }
 
 /* Section Repo */
-.section__repo {
+.section {
   margin: 0rem 6rem;
 }
 
@@ -25,7 +25,7 @@
 
 /* Media Query */
 @media only screen and (max-width: 600px) {
-  .header, .nav, .section__repo{
+  .header, .nav, .section{
       margin: 0rem 2rem;
   }
 }
