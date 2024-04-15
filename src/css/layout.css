@@ -1,0 +1,31 @@
+/* Navbar */
+.nav {
+  min-height: 64px;
+  margin: 0rem 6rem;
+}
+
+/* Header */
+.header {
+  margin: 0rem 6rem;
+  margin-bottom: 2rem;
+}
+
+/* Section Repo */
+.section__repo {
+  margin: 0rem 6rem;
+}
+
+/* Styles */
+.title {
+  padding: 0.25rem 0rem;
+  margin: 1rem 0rem 2rem 0rem;
+  border-bottom: 1px solid #333;
+  color: inherit !important;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  .header, .nav, .section__repo{
+      margin: 0rem 2rem;
+  }
+}

@@ -1,0 +1,34 @@
+:root {
+    --primary: #125caa;
+    --primary-shadow: #0d4b8d ;
+}
+
+* {
+    font-family: "Inter", sans-serif !important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding-bottom: 0.5rem;
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-right: 0rem;
+    margin: 0 !important;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
