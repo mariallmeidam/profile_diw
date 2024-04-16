@@ -1,23 +1,23 @@
 /* Navbar */
 .nav {
   min-height: 64px;
-  margin: 0rem 6rem;
+  padding: 0rem 8rem !important;
 }
 
 /* Header */
 .header {
-  margin: 0rem 6rem;
+  margin: 0rem 8rem;
   margin-bottom: 4rem;
 }
 
 /* Section Repo */
 .section{
-  margin: 0rem 6rem;
+  margin: 0rem 8rem;
   margin-bottom: 4rem;
 }
 
 .footer {
-  padding: 0rem 6rem;
+  padding: 0rem 8rem;
 }
 
 /* Styles */
@@ -30,12 +30,13 @@
 
 /* Media Query */
 @media only screen and (max-width: 600px) {
-  .header, .nav, .section{
+  .header, .section{
       margin: 0rem 2rem;
       margin-bottom: 2rem;
   }
 
-  .footer {
-    padding: 0rem 2rem;
+
+  .footer, .nav{
+    padding: 0rem 2rem !important;
   }
 }

@@ -1,4 +1,9 @@
 /* Navbar */
+.nav {
+  box-shadow: 0.125rem 0rem 0.5rem 1px #00000046;
+  margin-bottom: 2rem !important;
+}
+
 .nav__list {
   display: flex;
   align-items: center;
@@ -194,6 +199,12 @@
   cursor: pointer;
 }
 
+.repo__item:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  transform-origin: center;
+}
+
 .repo__item__title {
   font-weight: bold;
   color: var(--primary);
@@ -280,6 +291,12 @@
   border-radius: 0.5rem;
 }
 
+.persons__item__image:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+  transform-origin: center;
+}
+
 .persons__item__icons {
   width: 100%;
   border: 1px solid #c4c4c4;
@@ -314,44 +331,44 @@
 
 /* Header Repo */
 .header__section {
-    padding-bottom: 1rem;
-    margin: 1rem;
-    cursor: default;
+  padding-bottom: 1rem;
+  margin: 1rem;
+  cursor: default;
 }
 
 .header__section__title {
-    color: var(--primary);
-    font-weight: bold;
+  color: var(--primary);
+  font-weight: bold;
 }
 
 .header__section__link:hover {
-    cursor: pointer;
-    text-decoration: underline !important;
+  cursor: pointer;
+  text-decoration: underline !important;
 }
 
 .header__section__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    flex-direction: row;
-    padding-top: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  padding-top: 0.5rem;
 }
 
 .header__section__list__item {
-    padding: 0.5rem 1rem;
-    background-color: var(--primary);
-    border-radius: 0.75rem;
-    box-shadow: 0.125rem 0.125rem 0rem 1px var(--primary-shadow);
-    margin-right: 0.5rem;
-    color: #fff;
-    font-weight: bold;
-    font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary);
+  border-radius: 0.75rem;
+  box-shadow: 0.125rem 0.125rem 0rem 1px var(--primary-shadow);
+  margin-right: 0.5rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.75rem;
 }
 
 .header__section__list__item:hover {
-    background-color: var(--primary-shadow);
-    cursor: pointer;
+  background-color: var(--primary-shadow);
+  cursor: pointer;
 }
