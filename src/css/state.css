@@ -1,70 +1,99 @@
+@media only screen and (max-width: 420px) {
+   .header--mobile {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .header--mobile .header__info--mobile {
+      padding: 1rem 0rem 0rem 0rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+
+   .header--mobile .header__image {
+      display: flex;
+      justify-content: center;
+   }
+
+   .header--mobile .header__socialmedia__list {
+      display: flex;
+      justify-content: center;
+   }
+}
+
 @media only screen and (max-width: 750px) {
-  .header__socialmedia--desktop {
-    display: none;
-  }
+   .header__socialmedia--desktop {
+      display: none;
+   }
 
-  .header__visits--desktop {
-    display: none;
-  }
+   .header__visits--desktop {
+      display: none;
+   }
 
-  .header__image--desktop {
-    display: none;
-  }
+   .header__image--desktop {
+      display: none;
+   }
 
-  .header--desktop {
-    display: none;
-  }
+   .header--desktop {
+      display: none;
+   }
 
-  .header__info--desktop {
-    display: none;
-  }
+   .header__info--desktop {
+      display: none;
+   }
 
-  .repo {
-    grid-template-columns: 100%;
-  }
+   .repo {
+      grid-template-columns: 100%;
+   }
 
-  .repo__item {
-    margin-bottom: 1rem;
-  }
+   .repo__item {
+      margin-bottom: 1rem;
+   }
 
-  .header__socialmedia__list__itens {
-    padding: 0.25rem 0.75rem;
-    font-size: 0.5rem;
-  }
+   .header__socialmedia__list__itens {
+      padding: 0.25rem 0.75rem;
+      font-size: 0.5rem;
+   }
+
+   .header--mobile {
+      display: flex;
+      flex-wrap: nowrap;
+   }
 }
 
 @media only screen and (min-width: 751px) {
-  .header__socialmedia--mobile {
-    display: none;
-  }
+   .header__socialmedia--mobile {
+      display: none;
+   }
 
-  .header__visits--mobile {
-    display: none;
-  }
+   .header__visits--mobile {
+      display: none;
+   }
 
-  .header--mobile {
-    display: none;
-  }
+   .header--mobile {
+      display: none;
+   }
 
-  .header__row--desktop {
-    display: flex;
-    flex-wrap: nowrap;
-  }
+   .header__row--desktop {
+      display: flex;
+      flex-wrap: nowrap;
+   }
 
-  .header__row--desktop .header--desktop div {
-    padding-right: 2rem;
-  }
+   .header__row--desktop .header--desktop div {
+      padding-right: 2rem;
+   }
 
-  .header__description {
-    padding: 0.5rem 0rem;
-  }
+   .header__description {
+      padding: 0.5rem 0rem;
+   }
 
-  .header__image--bg {
-    width: 20rem;
-    height: 20rem;
-  }
+   .header__image--bg {
+      width: 20rem;
+      height: 20rem;
+   }
 
-  .repo {
-    grid-template-columns: 32% 32% 32%;
-  }
+   .repo {
+      grid-template-columns: 32% 32% 32%;
+   }
 }
