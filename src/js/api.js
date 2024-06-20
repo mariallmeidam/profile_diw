@@ -1,8 +1,8 @@
-const url = "https://api.github.com/";
+const url_api = "https://api.github.com/";
 const owner = "/marialmeida1";
 
 async function user_git() {
-    const url_user = url + "users" + owner;
+    const url_user = url_api + "users" + owner;
 
     try {
         const response = await fetch(url_user);
@@ -29,7 +29,7 @@ async function user_git() {
 }
 
 async function repos() {
-    const url_repo = url + "users" + owner + "/repos";
+    const url_repo = url_api + "users" + owner + "/repos";
 
     try {
         const response = await fetch(url_repo);
@@ -44,7 +44,6 @@ async function repos() {
             const url_api = details.url;
             const stars = details.stargazers_count;
             const url = link_page(id);
-            console.log(url)
 
             const data = {
                 id: id,
