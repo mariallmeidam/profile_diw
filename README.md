@@ -15,9 +15,14 @@ Neste trabalho, foi criado um site pessoal com duas telas distintas: a Tela Prin
 -  **Seção 4 - Colegas de Trabalho:** Apresenta uma grade com os principais colegas de trabalho no curso.
 -  **Rodapé:** Contém informações sobre o responsável pelo site (aluno/aluna).
 
+![image](https://github.com/marialmeida1/profile_diw/assets/97293831/994198ec-451b-4b4d-a397-f90c31c6135f)
+
+
 ### Tela de Detalhes do Repositório (`repo.html`)
 
 -  **Cabeçalho:** Apresenta informações gerais sobre um repositório específico, incluindo descrição, data de criação, proprietário com imagem/avatar, URL de acesso, linguagem principal.
+
+![image](https://github.com/marialmeida1/profile_diw/assets/97293831/f396f524-db30-4029-b5bf-43d26d128b32)
 
 ## Uso da API do GitHub
 
